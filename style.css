@@ -1,0 +1,202 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #F4FAF8;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+}
+
+.brandButton {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.backgroundHeader {
+  background-image: url(http://barbiereslc.com/img/BarbSLC-6.jpg);
+  width: 100%;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.logo {
+  background-image: url(http://barbiereslc.com/img/barbiere-logo-light.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 400px;
+
+}
+
+.apptButton {
+  background-color: #F4FAF8;
+  height: 90px;
+  width: 450px;
+}
+
+.apptButton:hover {
+  background: #3B4650;
+  color: #E6F2EE;
+  cursor: pointer;
+}
+
+.definition {
+  background-color: #E9F2EE;
+  width: 100%;
+  height: 320px;
+  line-height: 1;
+  margin-top: 0;
+}
+
+.definition > p {
+
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 0;
+  padding: 125px;
+  text-align: left;
+}
+
+.barbiereDef {
+  font-weight: bold;
+}
+.n {
+  font-weight: bold;
+}
+
+.apptButton > p {
+  font-size: 25px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+
+.shopInfo {
+  font-family: sans-serif;
+  background-color: #F4FAF8;
+}
+
+.shopInfo > p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.shopInfo > h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+
+.boldAddress {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.phone {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hours {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.acceptingApplications {
+  background-color: lightgrey;
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.acceptingApplications > p {
+  margin-top: 0;
+}
+
+.blueSection {
+  background-color: #3B4650;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blueSection > h2 {
+  margin-top: 0;
+  padding-top: 150px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.appointmentBox {
+  background: lightgrey;
+  width: 500px;
+  height: 500px;
+}
+
+.socialMediaLinks {
+  background-color: #F4FAF8;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMediaLinks > h1 {
+font-family: sans-serif;
+}
+
+.socialButtons {
+display: flex;
+flex-direction: column;
+}
+
+.socialButtons > i {
+  margin: 10px;
+}
+
+footer {
+  background-color: #F4FAF8;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid lightgrey;
+  line-height: 100px;
+  text-align: center;
+}
